@@ -1,0 +1,18 @@
+.input {
+  font-size: 1.15em;
+  padding: 15px 10px;
+  width: 100%;
+  background: var(--clr-2);
+  color: var(--clr-txt);
+  border-radius: 20px;
+  resize: none;
+}
+
+.default{
+  border: none;
+  outline: none;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}

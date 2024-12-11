@@ -1,0 +1,59 @@
+.default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.15em;
+  font-weight: 500;
+  padding: 10px 10px;
+  background: var(--clr-df);
+  color: var(--clr-txt);
+  transition: var(--trns);
+  border: none;
+  border-radius: var(--brdr-rdus);
+  cursor: pointer;
+}
+
+.default:hover {
+  opacity: 0.8;
+}
+
+.default:active{
+  transform: scale(0.98);
+}
+
+.danger {
+  background-color: var(--clr-red);
+}
+
+.safe {
+  background-color: var(--clr-green);
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+}
+
+.optionIcon {
+  font-size: 1.5em;
+  height: 2em;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+}
+
+.noRadius {
+  border-radius: 0;
+}
+
+.autoSize {
+  height: 100%;
+}
+
+.hover {
+  background: var(--clr-2);
+  color: var(--clr-gray);
+}
+
+.hover:hover {
+  color: var(--clr-1);
+  background: var(--clr-df);
+}

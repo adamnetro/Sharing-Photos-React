@@ -1,0 +1,33 @@
+.parentLogin{
+    width: 100%;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.parentForm{
+    flex-direction: column;
+    width: 30em;
+    background: var(--clr-3);
+    gap: 1em;
+    padding: 1em;
+    border-radius: var(--brdr-rdus);
+}
+
+.titleForm{
+    align-self: center;
+    cursor: default;
+    user-select: none;
+    margin: 0.3em;
+    font-weight: bold;
+}
+
+.parentForm a{
+    cursor: pointer;
+    width: max-content;
+    color: var(--clr-txt);
+}
+
+.parentForm a:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,16 @@
+.parentHome {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContent{
+  width: 37em;
+}
+
+@media (max-width: 1080px){
+  .homeContent{
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+.parentSave {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.saveContent {
+  width: 37em;
+}
+
+@media (max-width: 1080px) {
+  .saveContent {
+    width: 100%;
+  }
+}

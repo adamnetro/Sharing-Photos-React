@@ -1,0 +1,48 @@
+.parentPostEdit {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.705);
+  animation: parentPostEdit var(--trns) forwards;
+}
+
+.form {
+  background: var(--clr-3);
+  gap: 1em;
+  padding: 1em;
+  border-radius: var(--brdr-rdus);
+  height: 50%;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  animation: form var(--trns) forwards;
+}
+
+@keyframes parentPostEdit {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes form {
+  from {
+    transform: scale(0.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 1080px){
+
+  }

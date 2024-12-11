@@ -1,0 +1,14 @@
+.parent404{
+    width: 100%;
+    align-items: center;
+}
+
+.title{
+    font-size: 7.7em;
+    font-weight: bold;
+    text-shadow: 5px 5px 0px var(--clr-df);
+}
+
+.description{
+    font-size: 1.3em;
+}

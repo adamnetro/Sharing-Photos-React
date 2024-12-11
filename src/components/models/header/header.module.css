@@ -1,0 +1,57 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--clr-3);
+  justify-content: space-between;
+  padding: 10px 2em;
+  min-height: 70px;
+  border-radius: 0 0 20px 20px;
+}
+
+.icon{
+  font-size: 1.5em;
+  color: var(--clr-txt);
+  transition: var(--trns);
+  cursor: pointer;
+}
+
+.icon:hover{
+  opacity: 0.8;
+}
+
+.list{
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 1em;
+  overflow: hidden;
+  background: var(--clr-2);
+  box-shadow: 5px 5px 10px black;
+  animation: list var(--trns) forwards;
+}
+
+.option{
+  font-size: 1.3em;
+  margin: 0.5em;
+  color: var(--clr-txt);
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: var(--brdr-rdus);
+}
+
+.option:hover{
+  background: var(--clr-3);
+}
+
+@keyframes list{
+  from{
+    width: 0;
+  }
+
+  to{
+    width: 22em;
+  }
+}

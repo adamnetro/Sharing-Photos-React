@@ -1,0 +1,74 @@
+.parentAlert {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.705);
+  animation: parentAlert var(--trns) forwards;
+}
+
+.message {
+  background: var(--clr-3);
+  width: 32em;
+  height: max-content;
+  padding: 1em;
+  border-radius: var(--brdr-rdus);
+  gap: 2em;
+  animation: alert var(--trns) forwards;
+}
+
+.title {
+  font-size: 1.1em;
+}
+
+.options {
+  gap: 1em;
+  width: 50%;
+  margin-left: auto;
+}
+
+.options button {
+  width: 100%;
+}
+
+.dangerIcon, .alertIcon, .safeIcon{
+    align-self: center;
+}
+
+.dangerIcon{
+    color: var(--clr-red);  
+}
+
+.alertIcon {
+  color: var(--clr-orange);
+}
+
+.safeIcon{
+    color: var(--clr-df); 
+}
+
+@keyframes parentAlert{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes alert{
+  from{
+    transform: scale(0.1);
+  }
+
+  to{
+    transform: scale(1.0);
+  }
+}
+
+

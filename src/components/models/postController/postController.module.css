@@ -1,0 +1,44 @@
+.parentPostController {
+  background: var(--clr-3);
+  align-self: center;
+  width: 30em;
+  padding: 1em;
+  margin-left: 1em;
+  border-radius: var(--brdr-rdus);
+}
+
+.photo {
+  width: 12em;
+  object-fit: cover;
+  border-radius: var(--brdr-rdus);
+}
+
+.title {
+  font-size: 1.3em;
+}
+
+.postOptions {
+  justify-content: end;
+  gap: 1em;
+}
+
+.edit,
+.delete {
+  color: var(--clr-gray);
+  cursor: pointer;
+  transition: var(--trns);
+}
+
+.edit:hover {
+  color: var(--clr-df);
+}
+
+.delete:hover {
+  color: var(--clr-red);
+}
+
+@media (max-width: 1080px) {
+  .parentPostController {
+    width: 100%;
+  }
+}

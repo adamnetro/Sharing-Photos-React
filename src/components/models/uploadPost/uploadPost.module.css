@@ -1,0 +1,39 @@
+.uploadPost{
+    width: 100%;
+    background: var(--clr-3);
+    padding: 1.5em;
+    gap: 1em;
+    border-radius: var(--brdr-rdus);
+}
+
+.uploadPost textarea{
+    height: 5em;
+}
+
+.uploadArea{
+    display: flex;
+    min-height: 5em;
+    overflow: hidden;
+    width: 100%;
+    background: var(--clr-2);
+    border-radius: var(--brdr-rdus);
+    outline: 3px dashed var(--clr-4);
+    outline-offset: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: var(--trns);
+}
+
+.uploadArea:hover{
+    outline-color: var(--clr-gray);
+}
+
+.uploadIcon{
+    color: var(--clr-gray);
+}
+
+.imageShow{
+    width: 100%;
+    object-fit: cover;
+}

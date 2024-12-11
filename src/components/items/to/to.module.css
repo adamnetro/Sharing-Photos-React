@@ -1,0 +1,12 @@
+.to {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+@media (max-width: 1080px) {
+  .to {
+    cursor: none;
+  }
+}
