@@ -1,28 +1,20 @@
 <div dir="rtl">
-<h1> مسار تطوير تطبيق جوال باستخدام React Native </h1>
-<p>الشيفرة المصدرية الخاصة بمسار تطوير تطبيق جوال باستخدام React Native ضمن دورة "تطوير التطبيقات باستخدام JavaScript" المقدمة من أكاديمية حسوب
+<h1>المشروع النهائي للتخرج</h1>
+<p>عبارة عن منصة مصغرة لمشاركة الصور و مبنية ب Node.js و React.js و MongoDb</p>
 
-</p>
-
-<div>
-<a href="https://academy.hsoub.com/learn/javascript-application-development/">دورة تطوير التطبيقات باستخدام JavaScript</a>
-</div>
-
-<h2> طريقة تشغيل الواجهات الخلفية </h2>
+<h2>طريقة تشغيل واجهة الخلفية</h2>
 <ul>
-  <li>نسخ المستودع <code>git clone </code></li>
-  <li>الانتقال إلى المجلد <code>cd server</code></li>
-  <li>تنزيل حزم npm من خلال الأمر <code>npm install</code></li>
-  <li>التعديل على معلومات الاتصال بقواعد البيانات في ملف <code>.env</code></li>
-  <li>تشغيل المشروع <code>npm run start</code></li>
+  <li>تزيل ملفات المشروع و فك ضغطها</li>
+  <li>دخول لمجلد الخادم<code>cd server</code></li>
+  <li>تنزيل حزم و الوحدات الذي يحتاجها المشروع<code>npm install</code></li>
+  <li>يمكنك تعديل على متغيرات البئة اذا اردت<code>.env</code></li>
+  <li>تشغيل الخادم<code>npm start</code></li>
 </ul>
 
-<h2> طريقة تشغيل الواجهات الأمامية </h2>
+<h2>طريقة تشغيل واجهة الأمامية</h2>
 <ul>
-  <li>الانتقال إلى المجلد <code>cd client</code></li>
-  <li>تنزيل حزم npm من خلال الأمر <code>npm install</code></li>
-  <li>التعديل على معلومات الاتصال بخادم node.js في ملف <code>.env</code></li>
-  <li>تشغيل المشروع <code>npx expo start</code></li>
+  <li>دخول لمجلد واجهة الواجهة الأمامية<code>cd client</code></li>
+  <li>تنزيل حزم و الوحدات الذي يحتاجها المشروع<code>npm install</code></li>
+  <li>يجب تعديل متغيرات البيئة حتى تتناسب مع شبكتك<code>.env</code></li>
+  <li>تشغيل المشروع<code>npm start</code></li>
 </ul>
-</div>
-</div>
